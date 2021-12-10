@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1639139606 source:d:\cbprojects\kdb\main.cpp
+	<iostream>
+	"commandhandler.h"
+
+1639144894 d:\cbprojects\kdb\commandhandler.h
+	<cstring>
+
