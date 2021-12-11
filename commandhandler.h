@@ -2,14 +2,15 @@
 #define COMMANDHANDLER_H_INCLUDED
 #include <cstring>
 typedef std::string str;
-str commands[10] = {"GET", "PSH", "DEL", "CRT", "SEL"};
+str commands[10] = {"GET", "PSH", "DEL", "CRT", "FOR", "SEL"};
 str firstpar = "";
 int CHF3(str input);
-int CHEntry(str input){
+void CHEntry(str input){
     if(CHF3(input)) {
 
     } else {
         std::cout << "Invalid Operation Code [" << firstpar << "]. Please try again.\n";
+        std::cout << "Input: " << input <<"\n";
     }
 }
 
